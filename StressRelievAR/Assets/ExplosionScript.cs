@@ -19,11 +19,23 @@ public class ExplosionScript : MonoBehaviour
 	private void OnTriggerEnter(Collider other)
 	{
 		Debug.Log("COLLISION");
-		if (other.gameObject.name.Contains("notepad") != true)
+		if (other.gameObject.name.Contains("Cat"))
+		{
+			Debug.Log("CAT COLLISION");
+			other.gameObject.GetComponent<AudioSource>().Play();
+		}
+		else if (other.gameObject.name.Contains("notepad") != true && other.gameObject.name.Contains("Food") == false)
 		{
 			var exp = other.gameObject.GetComponent<ParticleSystem>();
 			exp.Play();
 			Destroy(other.gameObject, exp.duration);
+		}
+
+		else if (other.gameObject.name.Contains("Food"))
+		{
+			Debug.Log("FOOD COLLISION");
+			other.gameObject.GetComponent<AudioSource>().Play();
+			Destroy(other.gameObject);
 		}
 	}
 

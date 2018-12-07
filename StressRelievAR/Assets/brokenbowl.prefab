@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 54976550870726368}
   m_Layer: 0
   m_Name: Bowl.000_LOD0_Part_2
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 54078339684710644}
   m_Layer: 0
   m_Name: Bowl.000_LOD0_Part_1
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63,7 +63,7 @@ GameObject:
   - component: {fileID: 54622262699745604}
   m_Layer: 0
   m_Name: Bowl.000_LOD0_Part_4
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82,7 +82,7 @@ GameObject:
   - component: {fileID: 54297282564959002}
   m_Layer: 0
   m_Name: Bowl.000_LOD0_Part_10
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 54323063049608974}
   m_Layer: 0
   m_Name: Bowl.000_LOD0_Part_8
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 54671107885150578}
   m_Layer: 0
   m_Name: Bowl.000_LOD0_Part_11
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 54074244105517380}
   m_Layer: 0
   m_Name: Bowl.000_LOD0_Part_9
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -158,7 +158,7 @@ GameObject:
   - component: {fileID: 54137242439594324}
   m_Layer: 0
   m_Name: Bowl.000_LOD0_Part_3
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 4390013021299474}
   m_Layer: 0
   m_Name: brokenbowl
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 54576664565325264}
   m_Layer: 0
   m_Name: Bowl.000_LOD0_Part_6
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 54581679220073890}
   m_Layer: 0
   m_Name: Bowl.000_LOD0_Part_5
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -230,7 +230,7 @@ GameObject:
   - component: {fileID: 54935551362580984}
   m_Layer: 0
   m_Name: Bowl.000_LOD0_Part_12
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -249,7 +249,7 @@ GameObject:
   - component: {fileID: 54448366704357466}
   m_Layer: 0
   m_Name: Bowl.000_LOD0_Part_7
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

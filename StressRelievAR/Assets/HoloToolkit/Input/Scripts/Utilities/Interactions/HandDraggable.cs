@@ -13,12 +13,11 @@ namespace HoloToolkit.Unity.InputModule
     /// </summary>
     public class HandDraggable : MonoBehaviour, IFocusable, IInputHandler, ISourceStateHandler
     {
-        public GameObject BrokenVersion; 
         /// <summary>
         /// Event triggered when dragging starts.
         /// </summary>
         public event Action StartedDragging;
-       
+
         /// <summary>
         /// Event triggered when dragging stops.
         /// </summary>
@@ -98,11 +97,6 @@ namespace HoloToolkit.Unity.InputModule
             }
         }
 
-        public bool isCurrDragging()
-        {
-            return isDragging;
-        }
-        
         /// <summary>
         /// Starts dragging the object.
         /// </summary>

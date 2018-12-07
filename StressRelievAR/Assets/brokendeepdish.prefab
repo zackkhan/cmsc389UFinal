@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 54241716243557630}
   m_Layer: 0
   m_Name: DeepDish.001_LOD0_Part_10
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 54125792742849356}
   m_Layer: 0
   m_Name: DeepDish.001_LOD0_Part_7
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -63,7 +63,7 @@ GameObject:
   - component: {fileID: 54557391128907470}
   m_Layer: 0
   m_Name: DeepDish.001_LOD0_Part_6
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82,7 +82,7 @@ GameObject:
   - component: {fileID: 54127738320653794}
   m_Layer: 0
   m_Name: DeepDish.001_LOD0_Part_8
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,7 +101,7 @@ GameObject:
   - component: {fileID: 54599694023362244}
   m_Layer: 0
   m_Name: DeepDish.001_LOD0_Part_5
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 54060676880331004}
   m_Layer: 0
   m_Name: DeepDish.001_LOD0_Part_3
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 54069593746524268}
   m_Layer: 0
   m_Name: DeepDish.001_LOD0_Part_4
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,7 +154,7 @@ GameObject:
   - component: {fileID: 4708974462990608}
   m_Layer: 0
   m_Name: brokendeepdish
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -173,7 +173,7 @@ GameObject:
   - component: {fileID: 54977242533051240}
   m_Layer: 0
   m_Name: DeepDish.001_LOD0_Part_1
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -192,7 +192,7 @@ GameObject:
   - component: {fileID: 54302430139029262}
   m_Layer: 0
   m_Name: DeepDish.001_LOD0_Part_2
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -211,7 +211,7 @@ GameObject:
   - component: {fileID: 54885014605811854}
   m_Layer: 0
   m_Name: DeepDish.001_LOD0_Part_9
-  m_TagString: BrokenPieces
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -7,14 +7,18 @@ public class ExplosionScript : MonoBehaviour
 	public GameObject Explosion;
 	public GameObject Notebook;
 	public GameObject g;
+    private AudioSource audio;
 	public bool goingRight = true;
 
 	void Explode()
 	{
 		var exp = GetComponent<ParticleSystem>();
-		exp.Play();
+        
+        
+        exp.Play();
 		Destroy(gameObject, exp.duration / 2);
-	}
+        audio.Play();
+    }
 
 	private void OnTriggerEnter(Collider other)
 	{
@@ -24,14 +28,17 @@ public class ExplosionScript : MonoBehaviour
 			Debug.Log("CAT COLLISION");
 			other.gameObject.GetComponent<AudioSource>().Play();
 		}
-		else if (other.gameObject.name.Contains("notepad") != true && other.gameObject.name.Contains("Food") == false)
+		else if (other.gameObject.name.Contains("notepad") != true 
+            && !other.gameObject.CompareTag("BrokenPieces") && !other.gameObject.CompareTag("Porcelain") && !other.gameObject.CompareTag("Animal"))
 		{
 			var exp = other.gameObject.GetComponent<ParticleSystem>();
 			exp.Play();
+            
 			Destroy(other.gameObject, exp.duration);
-		}
+            audio.Play();
+        }
 
-		else if (other.gameObject.name.Contains("Food"))
+		else if (other.gameObject.CompareTag("Food"))
 		{
 			Debug.Log("FOOD COLLISION");
 			other.gameObject.GetComponent<AudioSource>().Play();
@@ -42,10 +49,11 @@ public class ExplosionScript : MonoBehaviour
 	// Use this for initialization
 	void Start()
 	{
-		// GameObject obj2 = Instantiate(Explosion, Notebook.transform.position, Quaternion.identity);
+        audio = GetComponent<AudioSource>();
+        // GameObject obj2 = Instantiate(Explosion, Notebook.transform.position, Quaternion.identity);
 
 
-	}
+    }
 
 	// Update is called once per frame
 	void Update()

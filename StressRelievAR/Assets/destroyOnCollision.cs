@@ -23,8 +23,8 @@ public class destroyOnCollision : MonoBehaviour {
     // Use this for initialization
     void Start()
     {
-        HandDraggable script = GetComponent<HandDraggable>();
-        Rigidbody rb = GetComponent<Rigidbody>();
+        script = GetComponent<HandDraggable>();
+        rb = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -48,7 +48,7 @@ public class destroyOnCollision : MonoBehaviour {
         if (script.isCurrDragging())
         {
             script.StopDragging();
-            rb.AddForce(MRCam.transform.forward * 200);
+            rb.AddForce(MRCam.transform.forward * 7000);
         }
     }
     public void throwObj()
@@ -56,7 +56,7 @@ public class destroyOnCollision : MonoBehaviour {
         if (script.isCurrDragging())
         {
             script.StopDragging();
-            rb.AddForce(MRCam.transform.forward * 500);
+            rb.AddForce(MRCam.transform.forward * 20000);
         }
     }
 

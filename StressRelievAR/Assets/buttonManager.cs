@@ -7,7 +7,7 @@ using HoloToolkit.Unity.InputModule;
 
 public class buttonManager : InteractionReceiver
 {
-    private string[] AllTags = { "Food", "Porcelain", "Explosive", "BrokenPieces" };
+    private string[] AllTags = { "Food", "Porcelain","Animal", "Explosive", "BrokenPieces" };
 
     private void Start()
     {
@@ -24,6 +24,7 @@ public class buttonManager : InteractionReceiver
 
     public void turnOnVisibility(string OnObjTag)
     {
+
         foreach(string tag in AllTags){
             GameObject[] allObjWithTag = GameObject.FindGameObjectsWithTag(tag);
             foreach(GameObject obj in allObjWithTag)
@@ -49,13 +50,11 @@ public class buttonManager : InteractionReceiver
                 turnOnVisibility("Porcelain");
                 break;
 
-            case "button2":
-                turnOnVisibility("Food");
-                turnOffVisibility("BrokenPieces"); 
-                break;
 
-            case "button3":
+            case "WildMode":
                 turnOnVisibility("Explosive");
+                turnOnVisibility("Food");
+                turnOnVisibility("Animal");
                 turnOffVisibility("BrokenPieces");
                 break;
         }
